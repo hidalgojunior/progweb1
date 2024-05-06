@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    
+    background-color: black;
+}
+h1{
+    font-family: Montserrat;
+    background-color:black;
+    color:#ccc;
+}
+p{
+    font-family: kalam;
+    color:white;
+    background-color: blue;
+    text-align: justify;
+    padding: 5px;
+}
+nav{
+    background-color: white;
+    color:blue;
+    width:100%;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-table;
+    border:1px solid blue;
+    width:15%;
+    text-align: center;
+    border-radius: 15px;
+}
+li:hover{
+    background-color: blue;
+    color:black;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+}
+a:hover{
+    background-color: blue;
+    color:white;
+}
+form{
+    color:white;
+}
+input, select{
+    color:white;
+}
