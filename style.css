@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     
-    background-color: black;
+    background-color: antiquewhite;
 }
+
 h1{
     font-family: Montserrat;
     background-color:black;
-    color:#ccc;
+    color:#555;
 }
 p{
     font-family: kalam;
-    color:white;
-    background-color: blue;
+    color:black;
+
     text-align: justify;
     padding: 5px;
 }
@@ -48,4 +49,16 @@ form{
 }
 input, select{
     color:white;
+}
+.fundo1{
+    background-color: blueviolet;
+    color: black;
+}
+.fundo2{
+    background-color: green;
+    color:darkolivegreen;
+}
+.fundo3{
+    background-color: aquamarine;
+    color:black;
 }
